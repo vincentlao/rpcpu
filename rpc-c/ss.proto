@@ -1,0 +1,26 @@
+
+service RpcTest{
+    rpc GetTest(Test1) returns(Test2) {}
+}
+
+message RpcRequest{
+    required string service = 2;
+    required int32 request = 3;
+    required int32 id = 4;
+}
+
+message RpcResponse{
+    required int32 id = 2;
+}
+
+message Test1
+{
+    required int32 id = 1;
+    required string value = 2;
+}
+
+message Test2
+{
+    required int32 id = 1;
+    required string value = 2;
+}
