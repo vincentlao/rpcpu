@@ -1,0 +1,9 @@
+﻿  rpc_pu.cpp
+g:\develop\rpc\rpc-c\rpc-c\rpc-c\rpc_pu.cpp(66): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+g:\develop\rpc\rpc-c\rpc-c\rpc-c\rpc_pu.cpp(70): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+g:\develop\rpc\rpc-c\rpc-c\rpc-c\rpc_pu.cpp(128): warning C4018: “<”: 有符号/无符号不匹配
+g:\develop\rpc\rpc-c\rpc-c\rpc-c\rpc_pu.cpp(153): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+g:\develop\rpc\rpc-c\rpc-c\rpc-c\rpc_pu.cpp(157): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+g:\develop\rpc\rpc-c\rpc-c\rpc-c\rpc_pu.cpp(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+  rpc-c.vcxproj -> G:\Develop\rpc\rpc-c\rpc-c\Debug\rpc-c.exe
